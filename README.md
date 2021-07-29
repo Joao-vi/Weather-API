@@ -12,4 +12,5 @@ Sobre o app:
 - As APis recebem o resquest com o nome da cidade que o usuario digitou no campo de pesquisa, e api retorna os dados em Json, ai os dados que eu preciso
 selecionados, tratados e mostrado na tela.
 - Ultilizei API TimeZone pois o openWeather nao oferece o horario local da cidade pesquisada.
+- Apenas para Desktop. ( Projeto focado mais no js, por isso não deu tanta ênfase em css).
 
