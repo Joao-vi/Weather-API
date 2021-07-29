@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>Clima</title>
+  </head>
+  <body>
+    <main>
+      <div class="container-app">
+        <div class="header">
+          <p class="sub-title" id="date"></p>
+          <h1 class="title" id="name"></h1>
+          <h1 class="sub-title1" id="country"></h1>
+        </div>
+
+        <div class="temperature">
+          <p class="sub-title" id="description"></p>
+          <div class="icon" id="icon"></div>
+          <h1 class="temp temp-font" id="temp"></h1>
+        </div>
+
+        <div class="information">
+          <div class="info">
+            <p class="sub-title1">Vel. vento</p>
+            <div class="format-info">
+              <p class="sub-title" id="speed"></p>
+              <p class="sub-title">Km</p>
+            </div>
+          </div>
+          <div class="info">
+            <p class="sub-title1">Visibilidade</p>
+            <div class="format-info">
+              <p class="sub-title" id="visibility"></p>
+              <p class="sub-title">km</p>
+            </div>
+          </div>
+          <div class="info">
+            <p class="sub-title1">Humidade</p>
+            <div class="format-info">
+              <p class="sub-title" id="humidity"></p>
+              <p class="sub-title">%</p>
+            </div>
+          </div>
+          <div class="info">
+            <p class="sub-title1">Pressão do ar</p>
+            <div class="format-info">
+              <p class="sub-title" id="pressure"></p>
+              <p class="sub-title">mb</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="search">
+          <input type="text" placeholder="Nome da cidade" id="searchBar" />
+          <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
